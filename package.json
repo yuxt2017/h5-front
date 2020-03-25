@@ -1,0 +1,43 @@
+{
+  "name": "vue-typescript-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:dev": "vue-cli-service build --mode dev",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "core-js": "^3.6.4",
+    "lodash": "^4.17.11",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "vant": "^2.5.3",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2",
+    "vuex-class": "^0.3.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-import": "^1.13.0",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.7.5",
+    "style-loader": "^0.23.0",
+    "vue-template-compiler": "^2.6.11",
+    "gulp": "^4.0.1",
+    "gulp-nodemon": "^2.4.2",
+    "vue-loader": "^15.4.2"
+  }
+}
